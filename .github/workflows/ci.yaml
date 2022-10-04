@@ -1,9 +1,8 @@
 ---
 name: CI
 
-on:
-  workflow_dispatch:
-    branches: [main]
+on: 
+  push
 
 jobs:
   run-consumer-app-cypress:

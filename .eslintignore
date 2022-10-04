@@ -1,0 +1,8 @@
+packages/ui-widgets/example
+doc-sites/storybook/storybook-static
+doc-sites/storybook/stories/utils
+doc-sites/storybook/stories
+doc-sites/doc-website
+docs/storybook/storybook-static
+*applitools.config.js
+scripts/

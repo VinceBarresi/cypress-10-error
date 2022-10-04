@@ -1,0 +1,13 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "consumer-app": "apps/consumer-app",
+    "informant-core": "packages/informant-core",
+    "ui-informant": "packages/ui-informant",
+    "ui-tracker": "packages/ui-tracker",
+    "ui-uds": "packages/ui-uds",
+    "ui-utilities": "packages/ui-utilities",
+    "ui-widgets": "packages/ui-widgets"
+  }
+}

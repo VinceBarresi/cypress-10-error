@@ -1,0 +1,36 @@
+site_name: frontend-core
+site_description: 'frontend core monorepo'
+nav:
+  - Introduction: 'index.md'
+  - Informant:
+      - Introduction: 'informant/index.md'
+      - Why Informant?: 'informant/why.md'
+      - Tutorial:
+          - Welcome: 'informant/informant-tutorial/01-welcome.md'
+          - Basic Usage: 'informant/informant-tutorial/02-basic-usage.md'
+          - Basic Validation: 'informant/informant-tutorial/03-basic-validation.md'
+          - Error Messages: 'informant/informant-tutorial/04-error-messages.md'
+          - Custom Validation: 'informant/informant-tutorial/03-custom-validation.md'
+          - Basic Field Components: 'informant/informant-tutorial/05-components.md'
+          - Custom Components: 'informant/informant-tutorial/07-custom-components.md'
+          - Multiscreen Flows: 'informant/informant-tutorial/08-multiscreen-forms.md'
+          - Routing: 'informant/informant-tutorial/09-routing.md'
+          - Dynamic fields: 'informant/informant-tutorial/10-dynamic-fields.md'
+          - Dynamic flows: 'informant/informant-tutorial/11-dynamic-flows.md'
+          - Analytics: 'informant/informant-tutorial/12-analytics.md'
+  - Consumer App:
+      - Dolly:
+          - Overview: 'consumer-app/dolly/index.md'
+      - Forward Your Mail flow:
+          - Overview: 'consumer-app/flows/forward-your-mail/index.md'
+      - Identity verification by phone flow:
+          - Overview: 'consumer-app/flows/verify-your-phone/index.md'
+      - Identity verification by credit card flow:
+          - Overview: 'consumer-app/flows/credit-card-verification/index.md'
+      - Packing Supplies flow:
+          - Overview: 'consumer-app/flows/packing-supplies/index.md'
+      - Secure Your Insurance flow:
+          - Overview: 'consumer-app/flows/secure-your-insurance/index.md'
+
+plugins:
+  - techdocs-core

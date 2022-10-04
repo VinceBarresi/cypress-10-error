@@ -1,0 +1,58 @@
+# dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+build/
+dist/
+doc-sites/storybook/storybook-static/
+doc-sites/doc-website/.docusaurus/
+docs/storybook/storybook-static/
+.next
+
+# environemnt
+.envrc
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.npmrc
+
+
+apps/account-creator/out
+
+# misc
+.DS_Store
+
+lerna-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+*.orig
+
+doc-sites/doc-website/docs/apis/ui-informant/
+
+doc-sites/doc-website/docs/apis/ui-tracker/
+
+doc-sites/doc-website/docs/apis/ui-utilities/
+
+apps/updater-dot-com/.next/
+
+# IDEs
+.idea
+.vscode
+
+tsconfig.tsbuildinfo
+
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

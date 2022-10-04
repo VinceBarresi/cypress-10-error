@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "module": "esnext",
+    "isolatedModules": true,
+    "allowJs": true,
+    "jsx": "preserve",
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "skipLibCheck": true,
+    "strict": false,
+    "incremental": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "baseUrl": "../../",
+    "paths": {
+      "*": ["apps/consumer-app/src/*"],
+      "@updater/ui-uds": ["packages/ui-uds/src/index.ts"],
+      "@updater/ui-informant": ["packages/ui-informant/src/index.ts"],
+      "@updater/ui-tracker": ["packages/ui-tracker/src/index.ts"],
+      "@updater/ui-utilities": ["packages/ui-utilities/src/index.ts"],
+      "@updater/ui-widgets": ["packages/ui-widgets/src/index.ts"],
+      "@updater/informant-core": ["packages/informant-core/src/index.ts"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "emotion.d.ts",
+    "packages/**/*.d.ts"
+  ],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,32 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: frontend-core
+  annotations:
+    github.com/project-slug: Updater/frontend-core
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: library
+  lifecycle: production
+  owner: group:fe_core
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: frontend-core-monorepo
+spec:
+  type: url
+  targets:
+    - ./apps/account-creator/catalog-info.yaml
+    - ./apps/att-buyflow-app/catalog-info.yaml
+    - ./apps/consumer-app/catalog-info.yaml
+    - ./apps/guest-buyflow-app/catalog-info.yaml
+    - ./packages/eslint-config-react/catalog-info.yaml
+    - ./packages/informant-core/catalog-info.yaml
+    - ./packages/ui-informant/catalog-info.yaml
+    - ./packages/ui-tracker/catalog-info.yaml
+    - ./packages/ui-uds/catalog-info.yaml
+    - ./packages/ui-utilities/catalog-info.yaml
+    - ./packages/ui-widgets/catalog-info.yaml

@@ -25,7 +25,6 @@ jobs:
           config-file: apps/consumer-app/cypress.config.js
           command: |
             yarn test:ci:cypress:local \
-            --tag local \
             --e2e \
             --env CYPRESS_ENV=staging
           browser: chrome

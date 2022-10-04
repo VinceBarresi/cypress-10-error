@@ -10266,7 +10266,6 @@ __metadata:
     "@types/styled-system": ^5.1.13
     "@types/styled-system__css": 5.0.16
     "@types/uuid": ^8.3.1
-    "@updater/native-web": ~1.0.1
     babel-jest: ^29.0.3
     babel-loader: 8.1.0
     babel-plugin-module-resolver: ^4.1.0
@@ -10301,16 +10300,6 @@ __metadata:
     typescript: 4.7.3
   languageName: unknown
   linkType: soft
-
-"@updater/native-web@npm:~1.0.1":
-  version: 1.0.15
-  resolution: "@updater/native-web@npm:1.0.15::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40Updater%2Fnative-web%2F1.0.15%2Fcffb61ab389ac75d6fd05c4cfc111d9159f1db6f"
-  peerDependencies:
-    react: ^17.0.2
-    react-dom: ^17.0.2
-  checksum: e4486d33b96d28287ddb3746f52fbbd97b3f8e6d56b871b79b108aa9a73cf4247d8c997836a903e6ff5533f010c0871d00254f2c89e3b882ad809b31894d5f41
-  languageName: node
-  linkType: hard
 
 "@wdio/config@npm:7.16.11":
   version: 7.16.11

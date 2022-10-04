@@ -264,7 +264,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@applitools/eyes-cypress@npm:^3.25.7, @applitools/eyes-cypress@npm:^3.27.1":
+"@applitools/eyes-cypress@npm:^3.27.1":
   version: 3.27.1
   resolution: "@applitools/eyes-cypress@npm:3.27.1"
   dependencies:
@@ -3228,37 +3228,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/css@npm:^11.9.0":
-  version: 11.10.0
-  resolution: "@emotion/css@npm:11.10.0"
-  dependencies:
-    "@emotion/babel-plugin": ^11.10.0
-    "@emotion/cache": ^11.10.0
-    "@emotion/serialize": ^1.1.0
-    "@emotion/sheet": ^1.2.0
-    "@emotion/utils": ^1.2.0
-  peerDependencies:
-    "@babel/core": ^7.0.0
-  peerDependenciesMeta:
-    "@babel/core":
-      optional: true
-  checksum: 677b90607a9525d0f18f4b13e1e781ed04a7878f25fb20174c06c24d5022bf9a206406980be717e82a362fdea01a8ae97248934877292112a7df0af136fe90f9
-  languageName: node
-  linkType: hard
-
 "@emotion/hash@npm:^0.9.0":
   version: 0.9.0
   resolution: "@emotion/hash@npm:0.9.0"
   checksum: b63428f7c8186607acdca5d003700cecf0ded519d0b5c5cc3b3154eafcad6ff433f8361bd2bac8882715b557e6f06945694aeb6ba8b25c6095d7a88570e2e0bb
-  languageName: node
-  linkType: hard
-
-"@emotion/is-prop-valid@npm:^0.8.2":
-  version: 0.8.8
-  resolution: "@emotion/is-prop-valid@npm:0.8.8"
-  dependencies:
-    "@emotion/memoize": 0.7.4
-  checksum: bb7ec6d48c572c540e24e47cc94fc2f8dec2d6a342ae97bc9c8b6388d9b8d283862672172a1bb62d335c02662afe6291e10c71e9b8642664a8b43416cdceffac
   languageName: node
   linkType: hard
 
@@ -3268,13 +3241,6 @@ __metadata:
   dependencies:
     "@emotion/memoize": ^0.8.0
   checksum: cc7a19850a4c5b24f1514665289442c8c641709e6f7711067ad550e05df331da0692a16148e85eda6f47e31b3261b64d74c5e25194d053223be16231f969d633
-  languageName: node
-  linkType: hard
-
-"@emotion/memoize@npm:0.7.4":
-  version: 0.7.4
-  resolution: "@emotion/memoize@npm:0.7.4"
-  checksum: 4e3920d4ec95995657a37beb43d3f4b7d89fed6caa2b173a4c04d10482d089d5c3ea50bbc96618d918b020f26ed6e9c4026bbd45433566576c1f7b056c3271dc
   languageName: node
   linkType: hard
 
@@ -9067,7 +9033,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/react@npm:12.1.5, @testing-library/react@npm:^12.1.2":
+"@testing-library/react@npm:12.1.5":
   version: 12.1.5
   resolution: "@testing-library/react@npm:12.1.5"
   dependencies:
@@ -10167,17 +10133,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@updater/applitools-cypress-commands@npm:~1.0.19":
-  version: 1.0.19
-  resolution: "@updater/applitools-cypress-commands@npm:1.0.19::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40Updater%2Fapplitools-cypress-commands%2F1.0.19%2Fe0dc6e19ed8d6369c464ff72370599466868f78f"
-  dependencies:
-    "@applitools/eyes-cypress": ^3.25.7
-    cypress: ^9.6.1
-    eslint-plugin-cypress: ^2.12.1
-  checksum: 4c6df5d0c18314ed8f6c88cb668f0bf384d3b8193d8072b4158d48223fca6d3cee8c47b1df5f6adcfa6d711700d21362376b1fe029f83b63f8edbcb14236a550
-  languageName: node
-  linkType: hard
-
 "@updater/consumer-app@workspace:apps/consumer-app":
   version: 0.0.0-use.local
   resolution: "@updater/consumer-app@workspace:apps/consumer-app"
@@ -10222,14 +10177,7 @@ __metadata:
     "@types/styled-system__css": 5.0.16
     "@types/ua-parser-js": ^0.7.36
     "@types/uuid": ^8.3.1
-    "@updater/applitools-cypress-commands": ~1.0.19
-    "@updater/native-web": ~1.0.1
     "@updater/quarantine": "*"
-    "@updater/ui-informant": "*"
-    "@updater/ui-tracker": "*"
-    "@updater/ui-uds": "*"
-    "@updater/ui-utilities": "*"
-    "@updater/ui-widgets": "*"
     ajv: ^8.11.0
     apollo: ^2.33.9
     async: ^3.2.3
@@ -10378,24 +10326,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@updater/informant-core@npm:^3.7.1":
-  version: 3.7.1
-  resolution: "@updater/informant-core@npm:3.7.1::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40Updater%2Finformant-core%2F3.7.1%2Fd6912b9270963aaa68969bb2779028809a195d75"
-  dependencies:
-    formik: ^2.2.9
-    json-schema: ^0.4.0
-    jsonschema: ^1.4.1
-    lodash: ^4.14.21
-  peerDependencies:
-    lodash: ^4.14.21
-    react: ^17.0.2
-    react-router: ^6
-    react-router-dom: ^6
-    typescript: ^4.5.5
-  checksum: 44e3048653119562011096bb25df073dd372f78596cf7bbefc8c2dfc90bc9fb890fb66270bdab68c5a85d535974db311a49410c4d1e1c8c2ae4c0a0392f87f21
-  languageName: node
-  linkType: hard
-
 "@updater/native-web@npm:~1.0.1":
   version: 1.0.15
   resolution: "@updater/native-web@npm:1.0.15::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40Updater%2Fnative-web%2F1.0.15%2Fcffb61ab389ac75d6fd05c4cfc111d9159f1db6f"
@@ -10423,116 +10353,6 @@ __metadata:
     quarantine: bin/quarantine.mjs
     verify-quarantine: bin/verify.mjs
   checksum: 2d9d46227fc1cde29864f7b8e30ca6b49598e36760a1d53d816f1f03feb8ac69bf03f33c8c9b0aca5bb2d39b1e3cb914c9f637984c6cc438fd06954018eef911
-  languageName: node
-  linkType: hard
-
-"@updater/ui-informant@npm:*":
-  version: 3.6.1
-  resolution: "@updater/ui-informant@npm:3.6.1::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40Updater%2Fui-informant%2F3.6.1%2F8cc0c755618a3647ca0c892e84ab1db9774d5767"
-  dependencies:
-    "@updater/informant-core": ^3.7.1
-    formik: ^2.2.9
-    json-schema: ^0.4.0
-    jsonschema: ^1.4.1
-    lodash: ^4.14.21
-  peerDependencies:
-    "@testing-library/react": ^12.1.2
-    "@updater/ui-uds": "*"
-    "@updater/ui-widgets": "*"
-    history: ^5
-    lodash: ^4.14.21
-    next: 12.1.2
-    phosphor-react: ^1.4.0
-    react: ^17.0.2
-    react-dom: ^17.0.2
-    react-router: ^6
-    react-router-dom: ^6
-    typescript: ^4.3.5
-  checksum: f01756afea99eabc593e2ebe19ffb20a30954223213b441b7842a6a53bc0ee4ad2f9e31c20575abda4ee1a1c98dc2e92a2f8dc64a142155c5eb5c24ba9ad1e1a
-  languageName: node
-  linkType: hard
-
-"@updater/ui-tracker@npm:*":
-  version: 1.11.1
-  resolution: "@updater/ui-tracker@npm:1.11.1::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40Updater%2Fui-tracker%2F1.11.1%2F29063ad30e9f033a59fb63767fb4560cb6a4fbd3"
-  dependencies:
-    "@updater/ui-utilities": ^1.8.1
-    lodash: ^4.17.21
-  peerDependencies:
-    typescript: ^4.3.5
-  checksum: 6e603a3587a70efb68a9c23ca29592e7d93d9889e731a797f7db3ede010846fa9139a804fa4b5d00412b9bd786bdccb7da13950f06061053779658294299fbe2
-  languageName: node
-  linkType: hard
-
-"@updater/ui-uds@npm:*":
-  version: 3.27.1
-  resolution: "@updater/ui-uds@npm:3.27.1::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40Updater%2Fui-uds%2F3.27.1%2F673f09c65edc8c008444b30d3fffef7103b34edf"
-  dependencies:
-    "@emotion/css": ^11.9.0
-    "@testing-library/react": ^12.1.2
-    framer-motion: ^4.1.17
-    lodash: ^4.17.21
-    react-day-picker: ^7.4.10
-    react-input-mask: ^3.0.0-alpha.2
-    react-textarea-autosize: ^8.3.3
-    typescript: ^4.3.5
-    uuid: ^8.3.2
-  peerDependencies:
-    "@apollo/client": ^3.5.7
-    "@emotion/react": ^11.4.1
-    "@emotion/styled": ^11.3.0
-    "@radix-ui/react-tooltip": ^0.1.6
-    "@styled-system/css": ^5.1.5
-    "@updater/native-web": ~1.0.1
-    csstype: ^3.0.10
-    date-fns: ^2.27.0
-    phosphor-react: ^1.3.1
-    react: ^17.0.2
-    react-dom: ^17.0.2
-    react-tiny-popover: ^7.0.1
-    react-tracking: ^9.1.0
-    styled-system: ^5.1.5
-  checksum: 5bf0cc6b86618e8af1fea3d08fad16db6a5cb6641f456aed29434de492221bf592a24d5bfc576ba1b2a6762052f10b68968761dfdc264bc55d3f8a6eccf6f682
-  languageName: node
-  linkType: hard
-
-"@updater/ui-utilities@npm:*, @updater/ui-utilities@npm:^1.8.1":
-  version: 1.8.1
-  resolution: "@updater/ui-utilities@npm:1.8.1::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40Updater%2Fui-utilities%2F1.8.1%2Fdd495a66d686c1484599a92cb1a0785aada3a7d9"
-  peerDependencies:
-    "@apollo/client": ^3.5.6
-    react: ^17.0.2
-    react-dom: ^17.0.2
-    typescript: ^4.3.5
-  checksum: 188dc28c2934971930d472f449522c38a7e46a2d43b536835225bc4aead233c0a21d418861f98c681a7d077b621b010c22f7630a2455f88f6cecb8c2f069ceab
-  languageName: node
-  linkType: hard
-
-"@updater/ui-widgets@npm:*":
-  version: 1.11.16
-  resolution: "@updater/ui-widgets@npm:1.11.16::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40Updater%2Fui-widgets%2F1.11.16%2Fe6aa021e05c54f42b0c45b174d28be2013ba5efe"
-  dependencies:
-    downshift: ^6.1.7
-    lodash: ^4.17.21
-    microbundle: ^0.14.2
-    use-places-autocomplete: ^1.11.0
-  peerDependencies:
-    "@apollo/client": ^3.5.6
-    "@emotion/react": ^11.4.1
-    "@emotion/styled": ^11.3.0
-    "@radix-ui/react-popover": ^0.1.4
-    "@radix-ui/react-tooltip": ^0.1.6
-    "@styled-system/css": ^5.1.5
-    "@updater/ui-uds": ">=2.0.0"
-    csstype: ^3.0.10
-    date-fns: ^2.27.0
-    formik: ^2.2.9
-    phosphor-react: ^1.3.1
-    react: ^17.0.2
-    react-dom: ^17.0.2
-    styled-system: ^5.1.5
-    typescript: ^4.3.5
-  checksum: 8c0ad98419d9cd161434bb0da89d56d09a99da2b520f94527aca8563ad726f4ac7b9f0fafe7376b83ceaf8e44dc364c0d74d01e4e8d5798dc82b31907f9c9730
   languageName: node
   linkType: hard
 
@@ -14592,13 +14412,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"compute-scroll-into-view@npm:^1.0.17":
-  version: 1.0.17
-  resolution: "compute-scroll-into-view@npm:1.0.17"
-  checksum: b20c05a10c37813c5a6e4bf053c00f65c88d23afed7a6bd7a2a69e05e2ffc2df3483ecfe407d36bf16b8cec8be21ae1966c9c523093a03117e567156cd79a51e
-  languageName: node
-  linkType: hard
-
 "concat-map@npm:0.0.1":
   version: 0.0.1
   resolution: "concat-map@npm:0.0.1"
@@ -15620,58 +15433,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cypress@npm:^9.6.1":
-  version: 9.7.0
-  resolution: "cypress@npm:9.7.0"
-  dependencies:
-    "@cypress/request": ^2.88.10
-    "@cypress/xvfb": ^1.2.4
-    "@types/node": ^14.14.31
-    "@types/sinonjs__fake-timers": 8.1.1
-    "@types/sizzle": ^2.3.2
-    arch: ^2.2.0
-    blob-util: ^2.0.2
-    bluebird: ^3.7.2
-    buffer: ^5.6.0
-    cachedir: ^2.3.0
-    chalk: ^4.1.0
-    check-more-types: ^2.24.0
-    cli-cursor: ^3.1.0
-    cli-table3: ~0.6.1
-    commander: ^5.1.0
-    common-tags: ^1.8.0
-    dayjs: ^1.10.4
-    debug: ^4.3.2
-    enquirer: ^2.3.6
-    eventemitter2: ^6.4.3
-    execa: 4.1.0
-    executable: ^4.1.1
-    extract-zip: 2.0.1
-    figures: ^3.2.0
-    fs-extra: ^9.1.0
-    getos: ^3.2.1
-    is-ci: ^3.0.0
-    is-installed-globally: ~0.4.0
-    lazy-ass: ^1.6.0
-    listr2: ^3.8.3
-    lodash: ^4.17.21
-    log-symbols: ^4.0.0
-    minimist: ^1.2.6
-    ospath: ^1.2.2
-    pretty-bytes: ^5.6.0
-    proxy-from-env: 1.0.0
-    request-progress: ^3.0.0
-    semver: ^7.3.2
-    supports-color: ^8.1.1
-    tmp: ~0.2.1
-    untildify: ^4.0.0
-    yauzl: ^2.10.0
-  bin:
-    cypress: bin/cypress
-  checksum: 45df7c85bc7ec2e187153ff2b98bf5106d2313d70e2367a5742b5269a9e82d3fdd730d5bbc32ac8da72aeb120a52f9384c2ba4e2fc86b532f68440f22d700fc9
-  languageName: node
-  linkType: hard
-
 "cz-conventional-changelog@npm:3.3.0":
   version: 3.3.0
   resolution: "cz-conventional-changelog@npm:3.3.0"
@@ -16629,21 +16390,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"downshift@npm:^6.1.7":
-  version: 6.1.12
-  resolution: "downshift@npm:6.1.12"
-  dependencies:
-    "@babel/runtime": ^7.14.8
-    compute-scroll-into-view: ^1.0.17
-    prop-types: ^15.7.2
-    react-is: ^17.0.2
-    tslib: ^2.3.0
-  peerDependencies:
-    react: ">=16.12.0"
-  checksum: c623dc436f332fefddc332b42ca4a267b3f5b47aaf1372a61212678d7ecbe22698fdb63f61373bcbd3773fa526eb4f210cf7f044cd5642b689dbd37ba27e9aaf
-  languageName: node
-  linkType: hard
-
 "duplexer2@npm:~0.1.4":
   version: 0.1.4
   resolution: "duplexer2@npm:0.1.4"
@@ -17216,17 +16962,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-cypress@npm:^2.12.1":
-  version: 2.12.1
-  resolution: "eslint-plugin-cypress@npm:2.12.1"
-  dependencies:
-    globals: ^11.12.0
-  peerDependencies:
-    eslint: ">= 3.2.1"
-  checksum: 1f1c36e149304e9a6f58e2292a761abad58274da33b3a48b24ad55ad20cbce3ac7467321f2b6fcb052f9563c89f67004de4766eba2e2bdbcb010a6a0666989cf
-  languageName: node
-  linkType: hard
-
 "eslint-plugin-import@npm:^2.25.2, eslint-plugin-import@npm:^2.26.0":
   version: 2.26.0
   resolution: "eslint-plugin-import@npm:2.26.0"
@@ -17566,13 +17301,6 @@ __metadata:
   version: 6.4.7
   resolution: "eventemitter2@npm:6.4.7"
   checksum: 1b36a77e139d6965ebf3a36c01fa00c089ae6b80faa1911e52888f40b3a7057b36a2cc45dcd1ad87cda3798fe7b97a0aabcbb8175a8b96092a23bb7d0f039e66
-  languageName: node
-  linkType: hard
-
-"eventemitter2@npm:^6.4.3":
-  version: 6.4.9
-  resolution: "eventemitter2@npm:6.4.9"
-  checksum: be59577c1e1c35509c7ba0e2624335c35bbcfd9485b8a977384c6cc6759341ea1a98d3cb9dbaa5cea4fff9b687e504504e3f9c2cc1674cf3bd8a43a7c74ea3eb
   languageName: node
   linkType: hard
 
@@ -18746,35 +18474,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:^4.1.17":
-  version: 4.1.17
-  resolution: "framer-motion@npm:4.1.17"
-  dependencies:
-    "@emotion/is-prop-valid": ^0.8.2
-    framesync: 5.3.0
-    hey-listen: ^1.0.8
-    popmotion: 9.3.6
-    style-value-types: 4.1.4
-    tslib: ^2.1.0
-  peerDependencies:
-    react: ">=16.8 || ^17.0.0"
-    react-dom: ">=16.8 || ^17.0.0"
-  dependenciesMeta:
-    "@emotion/is-prop-valid":
-      optional: true
-  checksum: f6b5fc8f189e6760353aa5b67515b6576ebaa164d8df73118780a09d1d4a162e54dfeb126a05c6a28727af88f4a80f8b94900ff9510be44dada6496a99273fde
-  languageName: node
-  linkType: hard
-
-"framesync@npm:5.3.0":
-  version: 5.3.0
-  resolution: "framesync@npm:5.3.0"
-  dependencies:
-    tslib: ^2.1.0
-  checksum: 9ebbb2863e6a1cfd2e9dd1b73af427d23caa03c92dd49ea767ebdd208c3a573bba4a1026f67068d856a21704f79adcdf2f750cc852ff73bc1f0e80edaaecded8
-  languageName: node
-  linkType: hard
-
 "fresh@npm:0.5.2":
   version: 0.5.2
   resolution: "fresh@npm:0.5.2"
@@ -19580,7 +19279,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globals@npm:^11.1.0, globals@npm:^11.12.0":
+"globals@npm:^11.1.0":
   version: 11.12.0
   resolution: "globals@npm:11.12.0"
   checksum: 67051a45eca3db904aee189dfc7cd53c20c7d881679c93f6146ddd4c9f4ab2268e68a919df740d39c71f4445d2b38ee360fc234428baea1dbdfe68bbcb46979e
@@ -20164,13 +19863,6 @@ __metadata:
   version: 5.1.1
   resolution: "helmet@npm:5.1.1"
   checksum: b72ba26cc431804ad3b8ecdc18db95409a492cbb7a7e825efc27fc502b9433fec39fc083f2aad4fe7ed1a89a4287560b59f4435f9689eebbae6a2b61a1ec1b7d
-  languageName: node
-  linkType: hard
-
-"hey-listen@npm:^1.0.8":
-  version: 1.0.8
-  resolution: "hey-listen@npm:1.0.8"
-  checksum: 6bad60b367688f5348e25e7ca3276a74b59ac5a09b0455e6ff8ab7d4a9e38cd2116c708a7dcd8a954d27253ce1d8717ec891d175723ea739885b828cf44e4072
   languageName: node
   linkType: hard
 
@@ -23735,7 +23427,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsonschema@npm:^1.4.0, jsonschema@npm:^1.4.1":
+"jsonschema@npm:^1.4.0":
   version: 1.4.1
   resolution: "jsonschema@npm:1.4.1"
   checksum: 1ef02a6cd9bc32241ec86bbf1300bdbc3b5f2d8df6eb795517cf7d1cd9909e7beba1e54fdf73990fd66be98a182bda9add9607296b0cb00b1348212988e424b2
@@ -24719,7 +24411,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash@npm:4.17.21, lodash@npm:^4.14.21, lodash@npm:^4.17.11, lodash@npm:^4.17.12, lodash@npm:^4.17.14, lodash@npm:^4.17.15, lodash@npm:^4.17.19, lodash@npm:^4.17.20, lodash@npm:^4.17.21, lodash@npm:^4.17.4, lodash@npm:^4.7.0":
+"lodash@npm:4.17.21, lodash@npm:^4.17.11, lodash@npm:^4.17.12, lodash@npm:^4.17.14, lodash@npm:^4.17.15, lodash@npm:^4.17.19, lodash@npm:^4.17.20, lodash@npm:^4.17.21, lodash@npm:^4.17.4, lodash@npm:^4.7.0":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: eb835a2e51d381e561e508ce932ea50a8e5a68f4ebdd771ea240d3048244a8d13658acbd502cd4829768c56f2e16bdd4340b9ea141297d472517b83868e677f7
@@ -28434,18 +28126,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"popmotion@npm:9.3.6":
-  version: 9.3.6
-  resolution: "popmotion@npm:9.3.6"
-  dependencies:
-    framesync: 5.3.0
-    hey-listen: ^1.0.8
-    style-value-types: 4.1.4
-    tslib: ^2.1.0
-  checksum: 551446ec3763790efde7a3bb8c43189122f9b559985be2efa79842138257c4e331efcff606732a4bd5ac82d9bde1b236258d69a435f4bb5e9fc5908241b5ba3f
-  languageName: node
-  linkType: hard
-
 "portfinder@npm:^1.0.28":
   version: 1.0.32
   resolution: "portfinder@npm:1.0.32"
@@ -29617,17 +29297,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-day-picker@npm:^7.4.10":
-  version: 7.4.10
-  resolution: "react-day-picker@npm:7.4.10"
-  dependencies:
-    prop-types: ^15.6.2
-  peerDependencies:
-    react: ~0.13.x || ~0.14.x || ^15.0.0 || ^16.0.0 || ^17.0.0
-  checksum: 33a4614bb4d457a3e72462d092fa131d3d7ec1ba858ac7e70d65b59e464606ffc039afdd226db37ead1326e248ca9a103007ee0bb829b277cd7297e5f5807ad1
-  languageName: node
-  linkType: hard
-
 "react-dev-utils@npm:^12.0.0-next.60":
   version: 12.0.1
   resolution: "react-dev-utils@npm:12.0.1"
@@ -29741,20 +29410,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-input-mask@npm:^3.0.0-alpha.2":
-  version: 3.0.0-alpha.2
-  resolution: "react-input-mask@npm:3.0.0-alpha.2"
-  dependencies:
-    invariant: ^2.2.4
-    prop-types: ^15.7.2
-    warning: ^4.0.3
-  peerDependencies:
-    react: ">=16.8"
-    react-dom: ">=16.8"
-  checksum: 6631cd65a31316ba129e6b6edcca5b1e8def3b9e97ad46fdc2d41d18165635f7a2cd81791473d31a58d3fd0dab5f0be0af7bdcaf3ff66a0d4d123d7cb6c69c55
-  languageName: node
-  linkType: hard
-
 "react-inspector@npm:^5.1.0":
   version: 5.1.1
   resolution: "react-inspector@npm:5.1.1"
@@ -29768,7 +29423,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-is@npm:17.0.2, react-is@npm:^17.0.0, react-is@npm:^17.0.1, react-is@npm:^17.0.2":
+"react-is@npm:17.0.2, react-is@npm:^17.0.0, react-is@npm:^17.0.1":
   version: 17.0.2
   resolution: "react-is@npm:17.0.2"
   checksum: 9d6d111d8990dc98bc5402c1266a808b0459b5d54830bbea24c12d908b536df7883f268a7868cfaedde3dd9d4e0d574db456f84d2e6df9c4526f99bb4b5344d8
@@ -32863,16 +32518,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"style-value-types@npm:4.1.4":
-  version: 4.1.4
-  resolution: "style-value-types@npm:4.1.4"
-  dependencies:
-    hey-listen: ^1.0.8
-    tslib: ^2.1.0
-  checksum: 96189770076a2717bf579f7d73a49953f0c3d633b90fed9b44b8285cbbe7facd19d6d7a0d2802fb493b45995791f62b87983c3d3c24128818a69e593b6d77aed
-  languageName: node
-  linkType: hard
-
 "styled-components@npm:^5.3.5":
   version: 5.3.6
   resolution: "styled-components@npm:5.3.6"
@@ -34713,15 +34358,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"use-places-autocomplete@npm:^1.11.0":
-  version: 1.11.0
-  resolution: "use-places-autocomplete@npm:1.11.0"
-  peerDependencies:
-    react: ">= 16.8.0"
-  checksum: f4c0a61f35ade4ff60b4221beb641f7b869750132eadd975123809df6b8bc47a30e997069596db3a2090a1a1942dd4ad65dbc519aa7dcb4d3ac40c92f56a15fa
-  languageName: node
-  linkType: hard
-
 "use-sidecar@npm:^1.1.2":
   version: 1.1.2
   resolution: "use-sidecar@npm:1.1.2"
@@ -35166,15 +34802,6 @@ __metadata:
   dependencies:
     makeerror: 1.0.12
   checksum: ad7a257ea1e662e57ef2e018f97b3c02a7240ad5093c392186ce0bcf1f1a60bbadd520d073b9beb921ed99f64f065efb63dfc8eec689a80e569f93c1c5d5e16c
-  languageName: node
-  linkType: hard
-
-"warning@npm:^4.0.3":
-  version: 4.0.3
-  resolution: "warning@npm:4.0.3"
-  dependencies:
-    loose-envify: ^1.0.0
-  checksum: 4f2cb6a9575e4faf71ddad9ad1ae7a00d0a75d24521c193fa464f30e6b04027bd97aa5d9546b0e13d3a150ab402eda216d59c1d0f2d6ca60124d96cd40dfa35c
   languageName: node
   linkType: hard
 

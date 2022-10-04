@@ -1,0 +1,34 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "3L3V7PGBA7.com.updater.consumer"
+        ],
+        "components": [
+          {
+            "/": "/*",
+            "comment": "Will match all paths"
+          }
+        ]
+      },
+      {
+        "appIDs": [
+          "3L3V7PGBA7.com.updater.consumer.beta"
+        ],
+        "components": [
+          {
+            "/": "/*",
+            "comment": "Will match all paths"
+          }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "3L3V7PGBA7.com.updater.consumer",
+      "3L3V7PGBA7.com.updater.consumer.beta"
+    ]
+  }
+}

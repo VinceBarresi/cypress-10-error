@@ -1,0 +1,24 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.updater.consumer",
+      "sha256_cert_fingerprints": [
+        "16:1E:82:53:21:3F:96:B9:BD:9C:D0:45:C5:60:2D:1C:BD:82:6A:08:80:AA:E7:EB:34:5C:8E:13:2A:F7:9C:94"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.updater.consumer.beta",
+      "sha256_cert_fingerprints": [
+        "A7:CD:00:05:00:83:9D:1E:DF:A9:D9:66:1B:37:E6:4E:36:15:75:4E:54:CE:3D:36:54:5E:FB:7A:F8:64:8B:0F",
+        "FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C",
+        "83:65:B9:A1:D5:BF:A4:54:5C:E4:84:E3:E2:EB:B8:D7:D2:55:2E:23:CB:E9:4F:67:EB:64:11:C0:BB:CD:CC:81"
+      ]
+    }
+  }
+]

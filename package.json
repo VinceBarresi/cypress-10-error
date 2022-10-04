@@ -10,10 +10,7 @@
   "license": "ISC",
   "repository": "git@github.com:Updater/frontend-core.git",
   "workspaces": [
-    "apps/*",
-    "packages/*",
-    "examples/*",
-    "doc-sites/*"
+    "apps/*"
   ],
   "devDependencies": {
     "@applitools/eyes-storybook": "^3.25.1",

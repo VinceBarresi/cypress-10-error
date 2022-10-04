@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "private": true,
   "scripts": {
-    "cypress:open": "cross-env CYPRESS_ENV=staging cypress open --config baseUrl=http://google.com --env CYPRESS_ENV=staging --browser chrome --e2e"
+    "cypress:run": "cross-env CYPRESS_ENV=staging cypress run --config baseUrl=http://google.com --env CYPRESS_ENV=staging --browser chrome --e2e"
   },
   "dependencies": {
     "@apidevtools/json-schema-ref-parser": "^9.0.9",

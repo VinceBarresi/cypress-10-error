@@ -95,6 +95,7 @@
     "cross-env": "^7.0.3",
     "cypress": "^10.8.0",
     "cypress-file-upload": "^5.0.8",
+    "cypress-msw-interceptor": "https://github.com/raphaeleidus/cypress-msw-interceptor",
     "cypress-plugin-stripe-elements": "^1.0.2",
     "cypress-wait-until": "1.7.2",
     "eslint": "^8.23.0",

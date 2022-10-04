@@ -10165,6 +10165,7 @@ __metadata:
     csstype: ^3.0.11
     cypress: ^10.8.0
     cypress-file-upload: ^5.0.8
+    cypress-msw-interceptor: "https://github.com/raphaeleidus/cypress-msw-interceptor"
     cypress-plugin-stripe-elements: ^1.0.2
     cypress-wait-until: 1.7.2
     date-fns: ^2.27.0
@@ -15282,6 +15283,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cypress-msw-interceptor@https://github.com/raphaeleidus/cypress-msw-interceptor":
+  version: 2.0.3
+  resolution: "cypress-msw-interceptor@https://github.com/raphaeleidus/cypress-msw-interceptor.git#commit=8e686ee9a6a312a090cb8a6134b96398f5bacbaa"
+  dependencies:
+    chalk: ^4.1.2
+    cypress-wait-until: ^1.7.1
+    lodash: ^4.17.21
+    node-match-path: ^0.6.3
+    prop-types: ^15.7.2
+  peerDependencies:
+    cypress: ">= 3"
+    msw: ">= 0.35.0"
+  checksum: 309012027820ccdc845256277b47acebe2544b878cb4f2b716ce17cb9fccf802007bc9f2087e4924cc416a84265581bea9d9a4da80b8f74fbc6320da9a3cf31c
+  languageName: node
+  linkType: hard
+
 "cypress-plugin-stripe-elements@npm:^1.0.2":
   version: 1.0.2
   resolution: "cypress-plugin-stripe-elements@npm:1.0.2"
@@ -15289,7 +15306,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cypress-wait-until@npm:1.7.2":
+"cypress-wait-until@npm:1.7.2, cypress-wait-until@npm:^1.7.1":
   version: 1.7.2
   resolution: "cypress-wait-until@npm:1.7.2"
   checksum: e3fe3c35ef8cfda39fb8919ae63a238bd580a98f5c02120306b32d6502ddfa9bfc3afde733cd9b282035b9f67e8386bd6c58bd59ca5fd2ea65291e6d9bac1ed7
@@ -26093,6 +26110,13 @@ __metadata:
   version: 1.1.12
   resolution: "node-machine-id@npm:1.1.12"
   checksum: e23088a0fb4a77a1d6484b7f09a22992fd3e0054d4f2e427692b4c7081e6cf30118ba07b6113b6c89f1ce46fd26ec5ab1d76dcaf6c10317717889124511283a5
+  languageName: node
+  linkType: hard
+
+"node-match-path@npm:^0.6.3":
+  version: 0.6.3
+  resolution: "node-match-path@npm:0.6.3"
+  checksum: d515bc069f293688109c058ee02567528fdaa856290d362b80a2254734975014e4eefcdcc5164a8adfd5560aa870e277c97fe8be648074d5088056cf61553c7c
   languageName: node
   linkType: hard
 

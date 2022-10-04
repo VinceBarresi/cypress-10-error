@@ -17,7 +17,7 @@ jobs:
         with:
           cmd: install # will run `yarn install` command
      
-      - run: cypress install     
+      - run: npx cypress install     
    
       - name: Run Cypress tests
         uses: cypress-io/github-action@v4

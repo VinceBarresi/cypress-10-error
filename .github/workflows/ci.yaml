@@ -16,6 +16,8 @@ jobs:
       - uses: borales/actions-yarn@v3.0.0
         with:
           cmd: install # will run `yarn install` command
+     
+      - run: cypress install     
    
       - name: Run Cypress tests
         uses: cypress-io/github-action@v4
